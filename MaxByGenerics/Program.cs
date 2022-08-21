@@ -42,17 +42,30 @@
             //StringMax.toPrint(stringArray);
 
             //Uc4
+            //Console.WriteLine("Max of integers  3,2,1 is ");
+            //Console.WriteLine();
+            //MaxUsingParams.toPrint(3, 2, 1);
+            //Console.WriteLine();
+            //Console.WriteLine("Max of Float 3.1, 2.3, 1.5, 5.4");
+            //Console.WriteLine();
+            //MaxUsingParams.toPrint(3.1f, 2.3f, 1.5f, 5.4f);
+            //Console.WriteLine();
+            //Console.WriteLine("Max of strings  Singing, Read, Swimming is ");
+            //Console.WriteLine();
+            //MaxUsingParams.toPrint("Singing", "Read", "Swimming");
+
+            ////Uc5
             Console.WriteLine("Max of integers  3,2,1 is ");
             Console.WriteLine();
-            MaxUsingParams.toPrint(3, 2, 1);
+            MaxByGenerics.FidMax(3, 2, 1);
             Console.WriteLine();
-            Console.WriteLine("Max of Float 3.1, 2.3, 1.5, 5.4");
+            Console.WriteLine("Max of Float 3.1, 2.3, 1.5, 5.4 is ");
             Console.WriteLine();
-            MaxUsingParams.toPrint(3.1f, 2.3f, 1.5f, 5.4f);
+            MaxByGenerics.FidMax(3.1, 2.3, 1.5, 5.4);
             Console.WriteLine();
             Console.WriteLine("Max of strings  Singing, Read, Swimming is ");
             Console.WriteLine();
-            MaxUsingParams.toPrint("Singing", "Read", "Swimming");
+            MaxByGenerics.FidMax("Singing", "Read", "Swimming");
 
         }
     }

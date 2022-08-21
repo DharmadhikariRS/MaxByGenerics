@@ -30,16 +30,29 @@
 
             // UC3
 
-            Console.WriteLine("Find Maximum of String");
-            string input;
-            string[] stringArray = new string[3];
-            for (int i = 0; i < 3; i++)
-            {
-                Console.WriteLine("Enter {0} string", i + 1);
-                input = Console.ReadLine();
-                stringArray[i] = input;
-            }
-            StringMax.toPrint(stringArray);
+            //Console.WriteLine("Find Maximum of String");
+            //string input;
+            //string[] stringArray = new string[3];
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    Console.WriteLine("Enter {0} string", i + 1);
+            //    input = Console.ReadLine();
+            //    stringArray[i] = input;
+            //}
+            //StringMax.toPrint(stringArray);
+
+            //Uc4
+            Console.WriteLine("Max of integers  3,2,1 is ");
+            Console.WriteLine();
+            MaxUsingParams.toPrint(3, 2, 1);
+            Console.WriteLine();
+            Console.WriteLine("Max of Float 3.1, 2.3, 1.5, 5.4");
+            Console.WriteLine();
+            MaxUsingParams.toPrint(3.1f, 2.3f, 1.5f, 5.4f);
+            Console.WriteLine();
+            Console.WriteLine("Max of strings  Singing, Read, Swimming is ");
+            Console.WriteLine();
+            MaxUsingParams.toPrint("Singing", "Read", "Swimming");
 
         }
     }
